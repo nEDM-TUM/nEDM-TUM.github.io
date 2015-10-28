@@ -10,7 +10,7 @@ electric dipole moment (nEDM) experiment located at the Technische Universität
 München (FRM-II).
 
 
-<h3 id="available-pages1">Available pages1</h3>
+<h3 id="available-pages">Available pages</h3>
 <ul>
 {% for repo in site.github.public_repositories %}
 {% if repo.has_pages and repo.name != site.github.repository_name %}
