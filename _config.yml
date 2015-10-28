@@ -6,7 +6,9 @@ repohash:
     description: Set of pages describing the general functionality of many of the (non-software) systems used in the nEDM experiment. 
     name: System Overview
   Munin-Docker:
-    name: Munin Docker
+    name: Munin (Docker)
+  CouchDB-Docker:
+    name: CouchDB (Docker)
   nEDM-Interface:
     name: nEDM Interface 
     description: Page describing the web interface used for control of devices and visualization of data in the experiment.
