@@ -19,7 +19,9 @@ München (FRM-II).
 {% if site.repohash[page_name] %}
   {% assign p = site.repohash[page_name] %}
   {% assign page_name = p.name %}
-  {% assign description = p.description %}
+  {% if p.description %}
+    {% assign description = p.description %}
+  {% endif %}
 {% endif %}
   <li>
     <a href="{{ site.baseurl }}{{ repo.name }}">{{ page_name }}</a> - {{ description }}
