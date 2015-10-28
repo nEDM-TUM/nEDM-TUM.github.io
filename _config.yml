@@ -1,7 +1,7 @@
 usertitle: nEDM Top
 repohash:
-  - FileServer-Docker:
-    - name: File Server (Docker)
-  - System-Overview:
-    - description: Set of pages describing the general functionality of many of the (non-software) systems used in the nEDM experiment. 
-    - name: System Overview 
+  FileServer-Docker:
+    name: File Server (Docker)
+  System-Overview:
+    description: Set of pages describing the general functionality of many of the (non-software) systems used in the nEDM experiment. 
+    name: System Overview
