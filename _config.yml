@@ -1,1 +1,5 @@
 usertitle: nEDM Top
+repohash:
+  - File-Server:
+    - description: File server, yay
+    - name: File Server
