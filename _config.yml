@@ -7,6 +7,8 @@ repohash:
     name: System Overview
   Munin-Docker:
     name: Munin (Docker)
+  Python-Slow-Control:
+    name: pynedm
   CouchDB-Docker:
     name: CouchDB (Docker)
   nEDM-Interface:
