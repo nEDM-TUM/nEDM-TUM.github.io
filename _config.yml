@@ -9,6 +9,8 @@ repohash:
     name: Munin (Docker)
   Python-Slow-Control:
     name: pynedm
+  HimbeereCouch:
+    name: himbeerecouch
   CouchDB-Docker:
     name: CouchDB (Docker)
   nEDM-Interface:
