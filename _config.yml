@@ -14,6 +14,7 @@ repohash:
   CouchDB-Docker:
     name: CouchDB (Docker)
   VMEDAQBox:
+    name: VMEDAQBox 
     description: Library for using HardwareLib software via JSON objects, allowing web interfaces.
   nEDM-Interface:
     name: nEDM Interface 
