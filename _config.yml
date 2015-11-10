@@ -1,21 +1,25 @@
 usertitle: nEDM Top
 repohash:
-  FileServer-Docker:
-    name: File Server (Docker)
   System-Overview:
-    description: Set of pages describing the general functionality of many of the (non-software) systems used in the nEDM experiment. 
+	description: (Read this first!) Set of pages describing the general functionality of many of
+the (non-software) systems used in the nEDM experiment.
     name: System Overview
-  Munin-Docker:
-    name: Munin (Docker)
+  nEDM-Interface:
+    name: nEDM Interface
+	description: Page describing the web interface used for control of devices
+and visualization of data in the experiment.
   Python-Slow-Control:
     name: pynedm
   HimbeereCouch:
     name: himbeerecouch
+  FileServer-Docker:
+    name: File Server (Docker)
+  Munin-Docker:
+    name: Munin (Docker)
   CouchDB-Docker:
     name: CouchDB (Docker)
   VMEDAQBox:
-    name: VMEDAQBox 
-    description: Library for using HardwareLib software via JSON objects, allowing web interfaces.
-  nEDM-Interface:
-    name: nEDM Interface 
-    description: Page describing the web interface used for control of devices and visualization of data in the experiment.
+    name: VMEDAQBox
+	description: Library for using HardwareLib software via JSON objects,
+allowing web interfaces.
+
