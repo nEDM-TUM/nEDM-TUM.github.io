@@ -18,8 +18,8 @@ München (FRM-II).
       {% assign the_next_site = r %}
       {% assign page_name = repo[1].name %}
       {% assign description = r.description %}
-      {% if r.description %}
-        {% assign description = r.description %}
+      {% if repo[1].description %}
+        {% assign description = repo[1].description %}
       {% endif %}
       {% break %}
     {% endif %}
