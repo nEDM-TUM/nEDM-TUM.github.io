@@ -28,7 +28,7 @@ München (FRM-II).
     {% continue %}
   {% endif %}
   <li>
-    <a href="{{ site.baseurl }}{{ repo.name }}">{{ page_name }}</a> - {{ description }}
+    <a href="{{ site.baseurl }}{{ the_next_site.name }}">{{ page_name }}</a> - {{ description }}
   </li>
 {% endfor %}
 </ul>
