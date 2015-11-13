@@ -25,4 +25,6 @@ repohash:
     description: |
       Library for using HardwareLib software via JSON objects, allowing web
       interfaces.
+  Slow-Control-Misc:
+    name: Miscellaneous Slow Control software
 
