@@ -36,7 +36,7 @@ München (FRM-II).
 <h3 id="available-pages">Other pages</h3>
 <ul>
 {% for repo in site.github.public_repositories %}
-  {% if repo.has_pages and repo.name != site.github.repository_name %}
+  {% if repo.has_pages and repo.name != site.github.repository_name and !repo.parent %}
     {% assign page_name = repo.name %}
     {% assign description = repo.description %}
     {% if site.repohash[page_name] %}
